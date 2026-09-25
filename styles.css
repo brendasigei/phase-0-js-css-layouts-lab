@@ -1,0 +1,9 @@
+.cat-container { display: flex; flex-wrap: wrap; }
+.cat-breed { border:1px solid #ccc; padding: 15px; margin: 10px; background-color: white; border-radius: 12px; box shadow: 0 4px 10px rgba(0, 0, 0, 0.1)}
+.cat-breed img {width: 150px; height: 150px; objec-fit: cover;}
+body{ background-color: #f5f5f5; font-family: Arial, sans-serif; }
+.cat-container { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+transition: transform 0.3s; }
+.cat-breed h2 { font-size: 22px; margin-top: 15px; }
+.cat-breed a { display: inline-block; padding: 8px 15px; margin-top: 10px; text-decoration:none; background-color: #333; color: white; border-radius: 6px; }
+.cat-breed a:hover { background-color: #555; transform: translateY(-5PX)}
